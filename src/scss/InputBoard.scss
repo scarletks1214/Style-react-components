@@ -1,0 +1,41 @@
+@import 'variable';
+
+.input-board {
+  width: inherit;
+  height: $input_board_height;
+  border-top: $border_width solid $border;
+  //border-bottom: $border_width solid $border;
+}
+
+#input {
+  margin-left: 18px;
+  margin-top: 11px;
+  font-size: 14px;
+  font-weight: 500;
+  background: none;
+  border:none;
+  color: $members_title_color;
+  &:focus{
+    outline:none;
+    box-shadow: none;
+  }
+}
+
+.icons-email-send {
+  width: 26px;
+  height: 24px;
+  margin-top: 0px;
+  object-fit: contain;
+  margin-right: 8px;
+  float: right;
+}
+
+#send-message {
+  margin-top: 0px;
+  height: 63px;
+  background: none;
+  border:none;
+  &:focus {
+    box-shadow: none;
+  }
+}

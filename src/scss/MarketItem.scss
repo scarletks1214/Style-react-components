@@ -1,0 +1,49 @@
+@import 'variable';
+
+.market-item {
+  width: 212px;
+  height: 135px;
+  border-radius: 6px;
+  background-color: $market_back_color;
+}
+
+.item-left {
+  width: 65px;
+  height: 66px;
+  object-fit: contain;
+}
+
+.item-right {
+  width: 65px;
+  height: 66px;
+  object-fit: contain;
+  //margin-right: 25px;
+}
+
+.swap-horiz {
+  width: 24px;
+  height: 17px;
+  object-fit: contain;
+  background-color: none;
+  margin: 52px 3px;
+}
+
+.text-top {
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 1.1px;
+  color: #ffffff;
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+
+.text-bottom {
+  font-size: 14px;
+  //font-weight: 900;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.-text-bottom .text-style-1 {
+  font-weight: normal;
+}

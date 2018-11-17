@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Avenir-Black";
+  src: url("/ttf/Avenir-Black.ttf");
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+}
+
+@font-face {
+  font-family: "Avenir-Medium";
+  src: url("/ttf/Avenir-Medium.ttf");
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+}
+
+@font-face {
+  font-family: "Avenir-Roman";
+  src: url("/ttf/Avenir-Roman.ttf");
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+}
+
+.market-container {
+  display: flex;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.market-sidebar-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 212px;
+  flex-shrink: 0;
+  min-width: 1px;
+  max-width: 260px;
+  background: #272d34;
+  color: white;
+  z-index: 201;
+  box-sizing: content-box;
+  visibility: visible;
+  height: 100vh;
+  font-family: Avenir-Roman;
+  border-right: 1px solid #4c515f;
+}
+
+.market-content-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-width: 1px;
+  font-family: Avenir-Roman;
+  height: 100vh;
+}

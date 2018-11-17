@@ -1,0 +1,33 @@
+@import 'variable';
+
+.list-item {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  color: #9da1b3;
+  border-left: 6px solid transparent;
+  &:hover {
+    background-color: $hover_item_color;
+    border-left: 6px solid $hover_item_border;
+  }
+}
+
+.item-avatar {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background: white;
+  margin-right: 11px;
+  border: none;
+}
+
+.list-text {
+  font-size: 14px !important;
+}
+
+.list-time {
+  font-size: 10px;
+  float:right;
+  margin-right: 14px;
+  padding-top: 5px;
+}

@@ -1,0 +1,23 @@
+@import 'variable';
+.title {
+
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: $title_color;
+  margin-top: 24px;
+  margin-left: 16px;
+  margin-bottom: 10px;
+}
+
+.members-title {
+  font-size: 13px;
+  color: $members_title_color;
+  margin-left: 14px;
+  margin-top: 14px;
+}
+

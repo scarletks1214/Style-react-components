@@ -1,0 +1,62 @@
+@import 'variable';
+
+#navbar {
+	background: $background-light;
+	height: $header_height;
+	border-bottom: $border_width solid $border;
+	position: relative;
+	z-index: 300 !important;
+}
+
+#navbar > collapse show navbar-collapse {
+	background: red;
+}
+
+.navbar-light .navbar-toggler {
+	border:none;
+	&:focus {
+		outline:none;
+	}
+}
+
+.dropdown-toggle::after {
+	display: none!important;
+}
+
+.profile-icon-arrow {
+	color: white;
+	margin-left: 5px;
+}
+
+.search-box {
+	margin-top: 2px;
+	margin-left: 10px;
+}
+
+.add-abcd {
+	width: 26px;
+  height: 26px;
+	object-fit: contain;
+}
+
+.notifications-button {
+	width: 23px;
+  height: 26px;
+  object-fit: contain;
+}
+
+.line {
+  width: 1px;
+  height: 21px;
+  border: solid 1px $border;
+}
+
+.room-chat-icon {
+	font-size: 26px !important;
+	color: white;
+}
+
+.collapse show navbar-collapse {
+	background-color: black !important;
+	padding: 30px;
+}

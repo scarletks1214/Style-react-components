@@ -1,0 +1,60 @@
+@import 'variable';
+
+.active-room-container {
+  height: $header_height;
+  background: $background-dark;
+  border-bottom: $border_width solid $border;
+  padding: 16px 16px 13.7px 16px;
+  cursor: pointer;
+}
+
+.active-room-container:hover {
+  background: $hover_selected_channel
+}
+
+.active-room-container .dropdown-toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  outline: none;
+}
+
+.active-room-container .dropdown:hover,
+.active-room-container button,
+.active-room-container .dropdown .btn-secondary:hover {
+  background: none !important;
+  background-color: none !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.active-room-container .dropdown-toggle:focus {
+  box-shadow: none !important;
+}
+
+.active-room-container .dropdown-menu {
+  width: 175px;
+  top: 5px !important;
+}
+
+.active-room-container .dropdown-toggle::after {
+  display: none;
+}
+
+.active-room-avatar {
+  width: 27px;
+  height: 27px;
+  border-radius: 100%;
+  background: $white;
+  float: left;
+}
+
+.active-room-avatar-container {
+  width: 175px;
+}
+
+.active-room-avatar-container i {
+  font-size: 18px;
+  float: right;
+  margin-top: 5px;
+}

@@ -1,0 +1,27 @@
+@import 'variable';
+
+.message-group {
+  margin-bottom: 14px;
+}
+
+.message-group-mine {
+  margin-left: auto;
+}
+
+
+.message-group-name {
+  margin-left: 20px;
+  margin-bottom: 5px;
+  color: #9da1b3 !important;
+  font-size: 12px;
+}
+
+.chat-image {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  margin-left: 13px;
+  float:bottom;
+  position: relative;
+  margin-bottom: 6px;
+}

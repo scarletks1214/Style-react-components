@@ -1,0 +1,21 @@
+@import 'variable';
+
+.open-orders {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
+.open-orders-title {
+  margin: 24px 24px 0 24px;
+  padding-bottom: 14px;
+  border-bottom: $border_width solid $border;
+}
+
+.none-yet {
+  font-size: 16px;
+  font-weight: 500;
+  color: $normal_text_color;
+  margin-left: 24px;
+  margin-top: 19px;
+}

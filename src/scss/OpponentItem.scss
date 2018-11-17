@@ -1,0 +1,22 @@
+@import 'variable';
+
+.opponent-item {
+  padding-top: 30px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  color: #9da1b3;
+}
+
+.opponent-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: white;
+  margin-right: 11px;
+  border: none;
+  background: none;
+}
+
+.opponent-text {
+  font-size: 19px !important;
+}

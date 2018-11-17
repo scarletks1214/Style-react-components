@@ -1,0 +1,18 @@
+@import 'variable';
+
+#inputbox {
+  max-width: 212px;
+  height: 32px;
+  border-radius: 4px;
+  border: none;
+  background:  url(/images/items/search-1.svg) no-repeat scroll 10px 11px #4c5057;
+  padding-left:30px;
+  color: $title_color;
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.search-box {
+  margin-top: 12px;
+}

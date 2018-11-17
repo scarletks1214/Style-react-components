@@ -1,0 +1,55 @@
+@import 'variable';
+
+.content {
+  background: $background-light;
+  display: flex;
+  flex-grow: 1;
+  overflow: hidden;
+  //height:
+}
+
+.rightside-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 212px;
+  flex-shrink: 0;
+  min-width: 1px;
+  max-width: 260px;
+  z-index: 201;
+  box-sizing: content-box;
+  visibility: visible;
+  height: -webkit-fill-available - $header_height;
+  border-left: $border_width solid $border;
+}
+
+.messagelist-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-width: 1px;
+}
+
+
+.input-board-container {
+  position: relative;
+  //display: flex;
+  flex-direction: row;
+  //flex-basis: 212px;
+  flex-shrink: 0;
+  min-width: 1px;
+  //max-width: 260px;
+  z-index: 201;
+  box-sizing: content-box;
+  visibility: visible;
+}
+
+.messagelist-history-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  min-width: 1px;
+}
+

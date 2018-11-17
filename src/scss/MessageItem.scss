@@ -1,0 +1,32 @@
+@import 'variable';
+
+.message-item {
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+}
+
+.BG {
+  width: fit-content;
+  max-width: 256px;
+  min-height: 32px;
+  padding: 4px 15px 4px 15px;
+  border-radius: 18px;
+  margin-bottom: 6px;
+
+}
+
+.mine-item {
+  margin-left: auto;
+  background-color: #bf90ff;
+   color: #2e2f30 !important;
+}
+
+.other-item {
+  background-color: #3e444a;
+  margin-left: 10px;
+  color: #cccccc !important;
+}
